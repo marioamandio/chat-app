@@ -44,14 +44,14 @@
     </script>
 
     <script id="location-message-template" type="text/template">
-      <li class="message">
+      <li class="message {{className}}">
           <div class="message__title">
               <h4>{{from}}</h4>
               <span>{{createdAt}}</span>
           </div>
           <div class="message__body">
               <p>
-                  <a href="{{url}}" target="_blank">My current location</a>
+                  <a href="{{url}}" class="locationLink" target="_blank">My current location</a>
               </p>
           </div>
       </li>

@@ -217,6 +217,14 @@ button:disabled {
 .message__title span {
   color: #999;
 }
+
+.locationLink:link,
+.locationLink:visited,
+.locationLink:active,
+.locationLink:hover {
+  color: white;
+}
+
 @media (max-width: 600px) {
   * {
     font-size: 1rem;
