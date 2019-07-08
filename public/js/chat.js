@@ -74,7 +74,6 @@ socket.on("newLocationMessage", function(message) {
 
 jQuery("#message-form").on("click", function(ev) {
   ev.preventDefault();
-  console.log("called");
   var messageTextBox = jQuery("[name=message]");
 
   socket.emit(
